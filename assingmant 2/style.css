@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ffffff;
+    background-color: #000000;
     margin: 0;
     padding: 0;
     color: #000000;
@@ -20,19 +20,20 @@ header {
     width: 150px;
     height: 150px;
     object-fit: cover;
+    
 }
 
 nav ul {
     background-color: #ffffff;
     list-style-type: none;
-    padding: 20px;
+    padding:  20px;
     margin: 0;
     display: flex;
     justify-content: center;
 }
 
 nav ul li {
-    margin: 0 120px;
+    margin: 0 100px;
 }
 
 nav ul li a {
@@ -49,10 +50,10 @@ nav ul li a:hover {
 }
 
 section {
-    margin: 20px;
-    padding: 20px;
+    margin: 200px;
+    padding:  10px;
     background-color: #ffffff;
-    border-radius: 50px;
+    border-radius: 10000px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 
@@ -90,7 +91,7 @@ section ul li a:hover {
 }
 
 section img {
-    border-radius: 50px;
+    border-radius: 5000px;
     margin: 20px;
     box-shadow: 0 4px 6px rgba(90, 68, 68, 0.1);
     transition: transform 0.3s ease;
