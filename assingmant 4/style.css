@@ -1,0 +1,49 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fc0101;
+    padding: 10px;
+    position: static;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav {
+    position: static;
+    background-color: #E0E0E0;
+    padding: 10px;
+}
+main  {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #da9797;
+    padding: 15px;
+}
+aside{
+    position: relative;
+    left: 0;
+    width: 30%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;    
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #b40909;
+    padding: 10px;
+}
+
