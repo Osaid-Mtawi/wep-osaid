@@ -61,8 +61,9 @@ display: inline-block;
     background-color: hsl(160, 43%, 3%);
   }
   .attribution {
+    text-align: center;
     font-size: 20px;
-    margin-top: 850px;
+    margin-left: 10%;
   }
   
   .attribution a {
